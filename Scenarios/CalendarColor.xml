@@ -1,0 +1,69 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Authorisation">
+    <listeners>
+        <listener class-name="Nugios.Kazunion.ScreenRecorder.ScreenListener"></listener>
+    </listeners>
+    <test name="NavigateToURL">
+        <classes>
+            <class name="Nugios.Kazunion.common.NavigateToURL"/>
+        </classes>
+    </test>
+    <test name="Authorisation">
+        <parameter name="userName" value="amirani gurgenidze"/>
+        <parameter name="password" value="amirani123123zzzzzzzzzzzzzz"/>
+        <classes>
+            <class name="Nugios.Kazunion.common.tests.AuthorisationTest"/>
+        </classes>
+    </test>
+    <!--
+    <test name="FlightBlock">
+        <classes>
+            <class name="Nugios.Kazunion.FlightBlock.tests.FlightBlockTest"/>
+        </classes>
+    </test>
+    <test name="NewTab">
+        <classes>
+            <class name="Nugios.Kazunion.common.NewTab"/>
+        </classes>
+    </test>
+    <test name="AuthorisationOnKazunion">
+        <parameter name="userName" value="KAZ"/>
+        <parameter name="password" value="1234"/>
+        <classes>
+            <class name="Nugios.Kazunion.common.tests.AuthorisationKazTest"/>
+        </classes>
+    </test>
+    <test name="DepartingCalendarTest">
+        <parameter name="color" value="rgba(255, 255, 0, 1)"/>
+        <classes>
+            <class name="Nugios.Kazunion.MainDashboard.tests.DepartingCalendarTest"/>
+        </classes>
+    </test>
+    <test name="SwitchToMainTab">
+        <classes>
+            <class name="Nugios.Kazunion.common.MainTab"/>
+        </classes>
+    </test>
+    <test name="AvailableTicketOriginalCondition">
+        <classes>
+            <class name="Nugios.Kazunion.FlightBlock.tests.AvailableTicketOriginalCondition"/>
+        </classes>
+    </test>
+    <test name="SwitchToKazunionTab">
+        <classes>
+            <class name="Nugios.Kazunion.common.KazunionTab"/>
+        </classes>
+    </test>
+    <test name="DepartingCalendarTestAssertion">
+        <parameter name="color" value="rgba(136, 205, 105, 1)"/>
+        <classes>
+            <class name="Nugios.Kazunion.MainDashboard.tests.DepartingCalendarTest"/>
+        </classes>
+    </test>-->
+    <test name="CloseBrowser">
+        <classes>
+            <class name="Nugios.Kazunion.common.ExitBrowser"/>
+        </classes>
+    </test>
+</suite>

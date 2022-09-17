@@ -1,0 +1,26 @@
+<component name="libraryTable">
+  <library name="Jars">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Jars/selenium-java-3.141.59.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jars/testng-6.14.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jars/org.apache.commons.io.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jars/asm-6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jars/jcommander-1.72.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jars/java-client-6.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jars/client-combined-3.141.59-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jars/java-client-7.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jars/monte-screen-recorder-0.7.7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jars/cglib-3.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jars/okio-1.14.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jars/bsh-2.0b6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jars/byte-buddy-1.8.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jars/SeleniumServer3.14.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jars/client-combined-3.141.59.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jars/java-client-7.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jars/okhttp-3.11.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Jars/commons-exec-1.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
